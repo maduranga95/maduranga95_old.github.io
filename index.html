@@ -464,7 +464,7 @@
         </header>
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <form id="contact-form" method="post" action="">
+            <form id="contact-form" method="post" action="contact-form-handler.php">
               <div class="messages"></div>
               <div class="controls">
                 <div class="row">
@@ -475,7 +475,7 @@
                     <input type="text" name="surname" placeholder="Your lastname *" required="required" class="form-control">
                   </div>
                   <div class="col-md-6">
-                    <input type="text" name="email" placeholder="Your email *" required="required" class="form-control">
+                    <input type="text" name="email" placeholder="Your email" class="form-control">
                   </div>
                   <div class="col-md-6">
                     <input type="text" name="phone" placeholder="Your phone" class="form-control">
@@ -484,7 +484,7 @@
                     <textarea name="message" placeholder="Message for me *" rows="4" required="required" class="form-control"></textarea>
                   </div>
                   <div class="col-md-12 text-center">
-                    <button type="submit" class="btn btn-outline-primary">Send message</button>
+                    <input type="submit" name="submit" value="Send message" class="btn btn-outline-primary"/>
                   </div>
                 </div>
               </div>
@@ -503,7 +503,7 @@
           </div>
           <!-- /.6-->
           <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
-            <p>© 2018 Your name goes here. All rights reserved.</p>
+            <p>© 2019 Uditha Maduranga. All rights reserved.</p>
           </div>
           <div class="col-12 mt-4">
             <p class="template-bootstrapious">Designed by <a href="https://www.bootstrapious.com">Bootstrapious</a>
